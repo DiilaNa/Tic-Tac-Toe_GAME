@@ -5,6 +5,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
 
 public class BoardController implements BoardUI {
@@ -31,6 +32,9 @@ public class BoardController implements BoardUI {
 
     @FXML
     private Button six;
+
+    @FXML
+    private ImageView image;
 
     @FXML
     private Button three;
@@ -78,7 +82,6 @@ public class BoardController implements BoardUI {
     @Override
     public void NotifyWinner(Piece winner) {
         new Alert(Alert.AlertType.INFORMATION , (winner + " Won The Game!!")).show();
-        // Implement notification logic for the winner
     }
 
     public void resetButtons() {
