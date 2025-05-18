@@ -38,7 +38,7 @@
             <InnerShadow />
          </effect>
          <children>
-            <GridPane layoutX="112.0" layoutY="30.0" prefHeight="275.0" prefWidth="328.0" style="-fx-background-color: gray; -fx-border-color: black; -fx-border-width: 3px;">
+            <GridPane layoutX="112.0" layoutY="30.0" prefHeight="300.0" prefWidth="330.0" style="-fx-background-color: gray; -fx-border-color: black; -fx-border-width: 3px;">
               <columnConstraints>
                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -50,7 +50,7 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Button fx:id="one" mnemonicParsing="false" onAction="#buttonAction" prefHeight="98.0" prefWidth="147.0" style="-fx-border-color: black; -fx-border-radius: 4;" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0">
+                  <Button fx:id="one" mnemonicParsing="false" onAction="#buttonAction" prefHeight="98.0" prefWidth="145.0" style="-fx-border-color: black; -fx-border-radius: 4;" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0">
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor>
@@ -58,68 +58,68 @@
                         <DropShadow />
                      </effect>
                      <font>
-                        <Font name="Impact" size="15.0" />
+                        <Font name="Consolas Bold" size="25.0" />
                      </font>
                   </Button>
-                  <Button fx:id="two" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="214.0" prefWidth="146.0" style="-fx-border-color: black; -fx-border-radius: 4;" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                  <Button fx:id="two" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="98.0" prefWidth="145.0" style="-fx-border-color: black; -fx-border-radius: 4;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="0">
                      <font>
-                        <Font name="Impact" size="15.0" />
-                     </font>
-                     <effect>
-                        <DropShadow />
-                     </effect>
-                  </Button>
-                  <Button fx:id="three" layoutX="110.0" layoutY="20.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="94.0" prefWidth="144.0" style="-fx-border-color: black; -fx-border-radius: 4;" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="0">
-                     <font>
-                        <Font name="Impact" size="15.0" />
+                        <Font name="Consolas Bold" size="25.0" />
                      </font>
                      <effect>
                         <DropShadow />
                      </effect>
                   </Button>
-                  <Button fx:id="four" layoutX="210.0" layoutY="20.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="108.0" prefWidth="147.0" style="-fx-border-color: black; -fx-border-radius: 4;" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                  <Button fx:id="three" layoutX="110.0" layoutY="20.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="98.0" prefWidth="145.0" style="-fx-border-color: black; -fx-border-radius: 4;" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="0">
                      <font>
-                        <Font name="Impact" size="15.0" />
+                        <Font name="Consolas Bold" size="25.0" />
                      </font>
                      <effect>
                         <DropShadow />
                      </effect>
                   </Button>
-                  <Button fx:id="five" layoutX="10.0" layoutY="120.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="131.0" prefWidth="147.0" style="-fx-border-color: black; -fx-border-radius: 4;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                  <Button fx:id="four" layoutX="210.0" layoutY="20.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="98.0" prefWidth="145.0" style="-fx-border-color: black; -fx-border-radius: 4;" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                      <font>
-                        <Font name="Impact" size="15.0" />
+                        <Font name="Consolas Bold" size="25.0" />
                      </font>
                      <effect>
                         <DropShadow />
                      </effect>
                   </Button>
-                  <Button fx:id="six" layoutX="110.0" layoutY="120.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="96.0" prefWidth="122.0" style="-fx-border-color: black; -fx-border-radius: 4;" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                  <Button fx:id="five" layoutX="10.0" layoutY="120.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="98.0" prefWidth="145.0" style="-fx-border-color: black; -fx-border-radius: 4;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                      <font>
-                        <Font name="Impact" size="15.0" />
+                        <Font name="Consolas Bold" size="25.0" />
                      </font>
                      <effect>
                         <DropShadow />
                      </effect>
                   </Button>
-                  <Button fx:id="seven" layoutX="210.0" layoutY="120.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="184.0" prefWidth="147.0" style="-fx-border-color: black; -fx-border-radius: 4;" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                  <Button fx:id="six" layoutX="110.0" layoutY="120.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="98.0" prefWidth="145.0" style="-fx-border-color: black; -fx-border-radius: 4;" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                      <font>
-                        <Font name="Impact" size="15.0" />
+                        <Font name="Consolas Bold" size="25.0" />
                      </font>
                      <effect>
                         <DropShadow />
                      </effect>
                   </Button>
-                  <Button fx:id="eight" layoutX="10.0" layoutY="220.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="166.0" prefWidth="147.0" style="-fx-border-color: black; -fx-border-radius: 4;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                  <Button fx:id="seven" layoutX="210.0" layoutY="120.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="98.0" prefWidth="145.0" style="-fx-border-color: black; -fx-border-radius: 4;" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                      <font>
-                        <Font name="Impact" size="15.0" />
+                        <Font name="Consolas Bold" size="25.0" />
                      </font>
                      <effect>
                         <DropShadow />
                      </effect>
                   </Button>
-                  <Button fx:id="nine" layoutX="110.0" layoutY="220.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="93.0" prefWidth="107.0" style="-fx-border-color: black; -fx-border-radius: 4;" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                  <Button fx:id="eight" layoutX="10.0" layoutY="220.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="98.0" prefWidth="145.0" style="-fx-border-color: black; -fx-border-radius: 4;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                      <font>
-                        <Font name="Impact" size="15.0" />
+                        <Font name="Consolas Bold" size="25.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Button>
+                  <Button fx:id="nine" layoutX="110.0" layoutY="220.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="98.0" prefWidth="108.0" style="-fx-border-color: black; -fx-border-radius: 4;" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Consolas Bold" size="25.0" />
                      </font>
                      <effect>
                         <DropShadow />
@@ -130,7 +130,7 @@
                   <InnerShadow />
                </effect>
             </GridPane>
-            <Button fx:id="b1" layoutX="180.0" layoutY="350.0" mnemonicParsing="false" onAction="#ButtonAction" prefHeight="31.0" prefWidth="173.0" style="-fx-background-color: #8e44ad;" text="Play Again" textFill="WHITE">
+            <Button fx:id="b1" layoutX="180.0" layoutY="360.0" mnemonicParsing="false" onAction="#ButtonAction" prefHeight="31.0" prefWidth="173.0" style="-fx-background-color: #8e44ad;" text="Play Again" textFill="WHITE">
                <font>
                   <Font name="Georgia Bold" size="20.0" />
                </font>
