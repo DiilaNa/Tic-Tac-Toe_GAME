@@ -113,6 +113,11 @@ public class BoardController implements BoardUI , Initializable {
         int row = GridPane.getRowIndex(button);
         int col = GridPane.getColumnIndex(button);
 
+        if (!button.getText().isEmpty()) {
+            showAlert("Invalid Move", "You already clicked this cell!");
+            return;
+        }
+
         // Human move
         if (!isGameOver) {
             if (board.isLegalMove(row, col)) {
