@@ -1,14 +1,25 @@
 package com.assignment.tictactoe.service.Controller;
 
 import com.assignment.tictactoe.service.game.*;
+import com.assignment.tictactoe.service.util.Util;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
 
-public class BoardController implements BoardUI {
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class BoardController implements BoardUI , Initializable {
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        userName.setText(Util.name.toUpperCase());
+    }
+
     @FXML
     private Button b1;
 
@@ -34,7 +45,7 @@ public class BoardController implements BoardUI {
     private Button six;
 
     @FXML
-    private ImageView image;
+    private Label userName;
 
     @FXML
     private Button three;
